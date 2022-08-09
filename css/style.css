@@ -1,4 +1,28 @@
 * {
     margin: 0px;
     padding: 0px;
+    background-color: black;
+}
+
+button {
+    margin-top: 120px;
+    position: absolute;
+    left: 43%;
+}
+/*media queries*/
+/* SMALL */
+@media all and (max-width: 767px) {
+    button {
+        margin-top: 120px;
+        position: absolute;
+        left: 26%;
+    }
+}
+/* MEDIUM */
+@media all and (min-width: 768px) and (max-width: 991px) {
+    button {
+        margin-top: 120px;
+        position: absolute;
+        left: 38%;
+    }
 }
