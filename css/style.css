@@ -1,4 +1,28 @@
 * {
     margin: 0px;
     padding: 0px;
+    background-color: black;
+}
+
+#comenzar {
+    margin-top: 100px;
+    position: absolute;
+    left: 43%;
+}
+/*media queries*/
+/* SMALL */
+@media all and (max-width: 767px) {
+    #comenzar {
+        margin-top: 100px;
+        position: absolute;
+        left: 26%;
+    }
+}
+/* MEDIUM */
+@media all and (min-width: 768px) and (max-width: 991px) {
+    #comenzar {
+        margin-top: 100px;
+        position: absolute;
+        left: 38%;
+    }
 }
