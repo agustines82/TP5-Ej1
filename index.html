@@ -22,13 +22,21 @@
             <article class="container">
                 <h1 class="display-1 text-success">Números Mágicos</h1>
                 <p class="lead">Este juego consiste en adivinar un número del 1 al 10.<br>No te preocupes que te
-                    ayudaremos!</p>
-                <p class="lead text-success fw-bold">Piensa un número y haz click en el boton comenzar.</p>
+                    ayudaremos! <br> Haz click en comenzar el juego.</p>
             </article>
         </section>
         <section class='text-center'>
-            <img src="img/numeros1.jpg" alt="ruleta" width="100%" height="350px">
-            <button class="btn btn-outline-success rounded-5 py-3 fw-bold">COMENZAR EL JUEGO</button>
+            <img src="img/numeros1.jpg" alt="ruleta" width="100%" height="250px">
+            <button type="button" class="btn btn-success rounded-5 py-3 fw-bold" id="comenzar">COMENZAR EL
+                JUEGO</button>
+        </section>
+        <section class='text-light text-center pt-3'>
+            <p class="lead text-success fw-bold">Selecciona tu número y haz click en adivinar</p>
+            <form id="adivinar">
+                <input class="form-control-sm lead text-success text-center fw-bold mb-2" type="number" min="1" max="10"
+                    required>
+                <button type="submit" class="btn btn-outline-success">Adivinar</button>
+            </form>
         </section>
     </main>
     <footer class="text-success text-center py-4 display-6">
